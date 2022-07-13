@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main(){
+
+    int vec[20], i;
+     
+    for( i = 0; i < 20; i++){
+        scanf("%d", &vec[i]);
+    }
+    printf("THE ARRAY IS \n");
+    for( i = 0; i < 20; i++){
+        printf("-- %d -- \n", vec[i]);
+    }
+    return 0;
+}
